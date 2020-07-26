@@ -34,10 +34,14 @@ body {
 }
 
 .btn.btn-primary {
-   color: var(--secondary);
-   background-color: var(--light-primary);
+   color: #fff;
+   background-color: var(--primary);
    border-color: var(--light-primary);
    font-weight: 600;
+   min-width: 140px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .btn.btn-primary:hover {
    color: var(--secondary);
@@ -505,8 +509,11 @@ span.loaderWrap {
    left: 0;
    content: "";
 }
+.btn.btn-primary:hover .loader:after {
+   background: var(--light-primary);
+}
 .loader:after {
-   background: #ade4f7;
+   background: var(--primary);
    width: 75%;
    height: 75%;
    border-radius: 50%;
