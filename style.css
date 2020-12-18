@@ -6,17 +6,6 @@
    --orange: rgb(241, 122, 36);
 }
 
-/**
-  * Notes
-  * This is a weird test, I don't understand why not just ask us to create a SPA instead of a vanilla project
-  * I'm disappointed at this test, makes me go back to 2017, doesn't even accept SASS!
-  */
-
-/**
- * Task
- * https://www.hackerrank.com/test/dj1omqbtrfp/questions/7l11fatjpk
- */
-
 body {
    font-family: "Montserrat", sans-serif;
    font-size: 14px;
